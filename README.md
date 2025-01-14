@@ -6,11 +6,16 @@ Laravel9 のGitHubテンプレートリポジトリです。
 
 画面ルート
 
-[一覧](http://127.0.0.1/admin/blogs) 127.0.0.1/admin/blogs  
-[新規作成画面](http://127.0.0.1/admin/blogs/create) 127.0.0.1/admin/blogs/create  
-[詳細](http://127.0.0.1/admin/blogs/{id}) 127.0.0.1/admin/blogs/{id}  
-[編集画面](http://127.0.0.1/admin/blogs/{id}/edit) 127.0.0.1/admin/blogs/{id/edit}  
-[編集確認画面](http://127.0.0.1/admin/blogs/{id}/confirm) 127.0.0.1/admin/blogs/{id}/confirm  
+- [一覧](http://127.0.0.1/admin/blogs)  
+127.0.0.1/admin/blogs  
+- [新規作成画面](http://127.0.0.1/admin/blogs/create)  
+127.0.0.1/admin/blogs/create  
+- [詳細](http://127.0.0.1/admin/blogs/{id})  
+127.0.0.1/admin/blogs/{id}  
+- [編集画面](http://127.0.0.1/admin/blogs/{id}/edit)  
+127.0.0.1/admin/blogs/{id}/edit  
+- [編集確認画面](http://127.0.0.1/admin/blogs/{id}/confirm)  
+127.0.0.1/admin/blogs/{id}/confirm  
 
 ## インストール
 
