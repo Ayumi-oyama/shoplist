@@ -2,6 +2,16 @@
 
 Laravel9 のGitHubテンプレートリポジトリです。
 
+## ブログ
+
+画面一覧
+
+一覧 [Example Website](http://127.0.0.1/admin/blogs)
+新規作成画面[Example Website](http://127.0.0.1/admin/blogs/create)
+詳細[Example Website](http://127.0.0.1/admin/blogs/{id})
+編集画面[Example Website](http://127.0.0.1/admin/blogs/{id}/edit)
+編集確認画面[Example Website](http://127.0.0.1/admin/blogs/{id}/confirm)
+
 ## インストール
 
 - Git (GitHub)
