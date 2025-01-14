@@ -5,7 +5,7 @@
         <a class="nav-link{{ request()->route()->named('admin.index') ? ' active' : '' }}" href="{{ route('admin.index') }}"><span data-feather="home"></span> ホーム</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link{{ request()->route()->named('admin.products.*') ? ' active' : '' }}" href="{{ route('admin.products.index') }}"><span data-feather="file-text"></span> 商品</a>
+        <a class="nav-link{{ request()->route()->named('admin.blogs.*') ? ' active' : '' }}" href="{{ route('admin.blogs.index') }}"><span data-feather="file-text"></span> ブログ記事</a>
       </li>
     </ul>
   </div>

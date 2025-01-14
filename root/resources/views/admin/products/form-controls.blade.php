@@ -6,7 +6,18 @@
   </div>
 </div>
 <div class="form-group row">
-  <label for="inputName" class="col-sm-2 col-form-label">名称</label>
+  <label for="inputName" class="col-sm-2 col-form-label">タイトル</label>
+  <div class="col-sm-10">
+    <input type="text" class="form-control @error('name') is-invalid @enderror" id="inputName" name="name" placeholder="名称を入力してください。" value="{{ old('name', $product->name ?? '') }}"{{ $readOnly ? ' readonly="readonly"' : '' }}>
+    @error('name')
+    <div class="invalid-feedback">{{$message}}</div>
+    @enderror
+  </div>
+</div>
+
+
+<div class="form-group row">
+  <label for="inputName" class="col-sm-2 col-form-label">本文</label>
   <div class="col-sm-10">
     <input type="text" class="form-control @error('name') is-invalid @enderror" id="inputName" name="name" placeholder="名称を入力してください。" value="{{ old('name', $product->name ?? '') }}"{{ $readOnly ? ' readonly="readonly"' : '' }}>
     @error('name')

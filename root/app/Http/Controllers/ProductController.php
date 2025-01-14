@@ -30,8 +30,8 @@ class ProductController extends Controller
      */
     public function create()
     {
-               // 新規画面
-               return view('admin.products.create');
+        // 新規画面
+        return view('admin.products.create');
     }
 
     /**
@@ -74,7 +74,7 @@ class ProductController extends Controller
     public function edit(product $product)
     {
                 // 編集画面
-                return view('admin.jobs.edit', [
+                return view('admin.products.edit', [
                     'product' => $product,
                 ]);
     }
